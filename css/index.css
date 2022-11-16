@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    background-color: #6495ED ;
+    display: block;
+    font-family: monospace;
+    font-size: 16px;
+    height: 100%;
+    
+}
+.menubar a {
+    color:	#191970;
+    padding: 10px;
+    text-decoration:  none;
+    cursor: pointer;
+}
+.menubar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #32CD32;
+    transition: 1s;
+}
+.menubar{
+    background-color: #ffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 3px 21px -3px #363636;
+}
+ .menubar img{
+    width: 20%;
+    height: 80px;
+    margin-left:62%;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px 1px 20px 20px;
+    margin:15px 5px 70px 5px;
+} 
+p{
+    color: #ffff;
+    font-family: monospace;
+    width: 800px;
+
+}
+.conteudo p b{
+    
+    color: #191970;
+    font-family: monospace;
+    font-size: 18px;
+    
+    
+    
+}
+.paragrafo{
+    border:1px solid;
+    border-radius: 20px;
+    padding:20px
+}
+p i{
+    display: flex;
+    justify-content:flex-start ;
+    opacity: 50%;
+
+}
+
+.conteudo img{
+    height: 500px;
+    display: flex;
+    border-radius: 10px;  
+}
+
+.rodape{
+    margin-top: 0%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 21px 3px #363636;
+    
+
+}
+
+.rodape p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
